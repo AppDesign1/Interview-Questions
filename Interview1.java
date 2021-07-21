@@ -9,14 +9,14 @@ public class Interview1
     //{9,9,9} --> {1,0,0,0}
     void res(int arr[])
     {
-        int len = arr.length;//3
+        int len = arr.length;	//3
         int n = 0;
-        int i;
+	int i;
         for(i=0;i<len;i++)
         {
-            n = n+(arr[i]*(int)Math.pow(10,len-i-1));//9+10^2   900
+            n += (arr[i]*(int)Math.pow(10,len-i-1));//9+10^2   900
         }
-        n+=1;
+        n++;
         
         //length of the number
         int a,t=n,c=0;
