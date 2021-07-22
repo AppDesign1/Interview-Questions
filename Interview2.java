@@ -37,6 +37,7 @@ public class Interview2
         }
         System.out.print("\n\n");
         System.out.println("Number of Paths Possible : "+obj.number_of_ways(n));
+        sc.close();
     }
     
     int number_of_ways(int n)
