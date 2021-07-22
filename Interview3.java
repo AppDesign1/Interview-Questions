@@ -5,13 +5,13 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Interview3 
+public class Interview2 
 {
     ArrayList<Integer> a = new ArrayList<Integer>();
     public static void main(String args[])throws InterruptedException
     {
         Scanner sc = new Scanner(System.in);
-        Interview3 obj = new Interview3();
+        Interview2 obj = new Interview2();
         System.out.print("Enter number of steps : ");
         int n = sc.nextInt();
         System.out.println("Enter the steps which can be moved : \nEnter 0 when done.");
