@@ -35,7 +35,7 @@ public class Interview2
             Thread.sleep(500);
             System.out.print(".");
         }
-        System.out.print("\f");
+        System.out.print("\n\n");
         System.out.println("Number of Paths Possible : "+obj.number_of_ways(n));
     }
     
